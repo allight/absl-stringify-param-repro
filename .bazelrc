@@ -1,0 +1,7 @@
+build --action_env=BAZEL_CXXOPTS=-std=c++20
+build --cxxopt "-std=c++20"
+build --copt "-Wno-sign-compare"
+build --copt "-Wno-comment"
+build --host_copt "-Wno-sign-compare"
+build --host_copt "-Wno-comment"
+
